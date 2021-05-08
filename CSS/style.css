@@ -1,0 +1,129 @@
+
+
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background: hsl(233, 47%, 7%);
+	font-size: 15px;
+	height: 100vh;
+	font-family: 'Inter', 'Lexend Deca', sans-serif;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+
+.card{
+	margin: 0 2em;
+	max-width: 569px;
+}
+
+.card-img{
+	border-radius: 0.5em 0.5em 0 0;
+	height: 27vh;
+	background: hsl(277, 64%, 61%);
+	background-image: url(../images/image-header-mobile.jpg);
+	background-blend-mode: multiply;
+	background-size: cover;
+}
+
+
+.card-content{
+	background:hsl(244, 38%, 16%);
+	margin-top: 0;
+	border-radius:0 0 0.5em 0.5em;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+
+.text-white{
+	color:hsl(0, 0%, 100%);
+}
+
+.text-muted-p{
+	color:hsla(0, 0%, 100%, 0.75);
+}
+
+.text-muted-sub{
+	color:hsla(0, 0%, 100%, 0.6);
+}
+
+.accent {
+	color: hsl(277, 64%, 61%);
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+h1{
+	font-weight: 700;
+	margin-bottom: 1em;
+	font-size:1.8em;
+}
+
+h2{
+	margin-bottom: .5em;
+}
+
+p, h4{
+	font-weight: 400;
+	margin-bottom: 2em;
+}
+
+h4 {
+	letter-spacing: 0.1em;
+	font-size: 0.8em;
+}
+
+@media (min-width: 1440px) {
+	.card{
+		display: flex;
+		flex-direction: row-reverse;
+		max-width: initial;
+	}
+
+	.card-img{
+		width: 100%;
+		height: auto;
+		border-radius: 0em 0.5em 0.5em 0;
+		background-image: url(../images/image-header-desktop.jpg);
+	}
+
+	.card-content{
+		padding: 5em 5em 3em;
+		border-radius:0.5em 0 0em 0.5em;
+		text-align: left;
+
+	}
+
+	.row{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+
+	p{
+		margin-bottom: 4em;
+	}
+
+}
