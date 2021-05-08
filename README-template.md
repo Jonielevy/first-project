@@ -29,6 +29,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/83787221/117548308-a9364600-b00a-11eb-9820-8f0ff7d99422.png)
+![image](https://user-images.githubusercontent.com/83787221/117548494-bb64b400-b00b-11eb-9477-129362d60a18.png)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -40,8 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Jonielevy/first-project)
+- Live Site URL: (https://jonielevy.github.io/first-project/)
 
 ## My process
 
@@ -50,11 +53,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
